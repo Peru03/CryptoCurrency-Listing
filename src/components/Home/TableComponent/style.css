@@ -1,0 +1,121 @@
+.table{
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+.table_header{
+    display: flex;
+        border-radius: 5px;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem 5rem;
+}
+.table_title{
+        font-size: 24px;
+        font-weight: 600;
+}
+.table_search{
+    margin-left: 5rem;
+    position: relative;
+}
+.table_search .search_icon{
+    position: absolute;
+    top:35%;
+    left: 0.8rem;
+    font-size: 18px;
+}
+.table_search input{
+    border: none;
+    outline: none;
+    background-color: #9e9e9e6e;
+    padding: 1rem 3rem;
+    padding-right: 5rem;
+    width: 100%;
+       border-radius: 5px;
+       color: rgba(0, 0, 0, 0.53);
+}
+.table_cont_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9e9e9e6e;
+    border-top: 1px solid #0000005c;
+    border-bottom: 1px solid #0000005c;
+}
+.table_cont_header .fields{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1rem 0;
+    color: #000000a9;
+    text-transform: uppercase;
+      width: 100%;
+    text-align: center;
+}
+.table_cont_body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #0000005c;
+    border-bottom: 1px solid #0000005c;
+}
+.table_cont_body .fields{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1.4rem 0;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.table_footer{
+   font-size: 16px;
+    font-weight: 500;
+    padding: 1rem ;
+    color: #000000a9;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+       border-radius: 5px;
+           background-color: #9e9e9e6e;
+           gap: 50px;
+}
+
+.btn_view,.btn_send_data{
+    outline: none;
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #fff;
+}
+.btn_view{
+    background-color: rgba(119, 0, 255, 0.797);
+}
+.btn_send_data{
+    background-color: rgba(0, 119, 255, 0.797);
+}
+.symbol{
+      background-color: rgba(0, 119, 255, 0.152);
+      color: rgba(119, 0, 255, 0.797);
+      font-size: 14px;
+      padding: 0.3rem 0;
+      border-radius: 50px;
+      padding-left: 1.5rem;
+      padding-right: 1rem;
+      position: relative;
+}
+.symbol::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color:rgba(119, 0, 255, 0.797) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}

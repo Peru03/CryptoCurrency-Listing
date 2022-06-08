@@ -1,0 +1,10 @@
+.veiw_page{
+    width: 80vw;
+    margin: 3rem auto;
+}
+.veiw_page .veiw_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:100px;
+}

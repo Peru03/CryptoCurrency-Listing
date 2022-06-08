@@ -1,0 +1,10 @@
+.home_page{
+    width: 80vw;
+    margin: 3rem auto;
+}
+.home_page .home_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:100px;
+}
